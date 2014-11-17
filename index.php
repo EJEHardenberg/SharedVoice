@@ -14,6 +14,9 @@
 			.btn{
 				padding: 20px;	
 			}
+			blockquote{
+				text-align: center;
+			}
 		</style>
 	</head>
 	<body>
