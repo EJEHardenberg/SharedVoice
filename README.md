@@ -3,6 +3,8 @@ SharedVoice
 
 **What about side by side with a friend?** - _Legolas_ 
 
+![Screenshot of Regular index](SCREENSHOT.png)
+
 ### What is this? 
 
 SharedVoice is an extremely simple Twitter Application that allows
@@ -38,7 +40,7 @@ you've got google you'll be just fine.
 
 ### how do I use this?
 
-[Use the setup file](https://github.com/EJEHardenberg/SharedVoice/blob/master/setup.md)
+[Use the setup file](https://github.com/EJEHardenberg/SharedVoice/blob/master/setupg.md)
 
 
 
