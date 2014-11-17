@@ -60,7 +60,7 @@
 					</blockquote>
 				</div>
 				<div class="col-xs-12 center-block">
-					<a href="/twitteroauth/connect.php" class="btn btn-primary center-block">
+					<a href="/twitteroauth/redirect.php" class="btn btn-primary center-block">
 						Add Your Voice
 					</a>
 				</div>
