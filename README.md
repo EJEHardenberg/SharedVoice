@@ -36,6 +36,10 @@ Anyone. Download the code, follow the setup instructions and go to town.
 The setup file isn't detailed for the complete newbie to tech, but if
 you've got google you'll be just fine. 
 
+### how do I use this?
+
+[Use the setup file](https://github.com/EJEHardenberg/SharedVoice/blob/master/setup.md)
+
 
 
 [twitteroauth]:https://github.com/abraham/twitteroauth

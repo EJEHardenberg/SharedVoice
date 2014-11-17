@@ -1,4 +1,11 @@
 <?php
+/* 
+========================================================================
+=
+=	IMPORTANT: Protect conf.json via server configuration
+=
+========================================================================
+*/
 $conf = json_decode(file_get_contents( dirname(__FILE__) . '/conf.json'));
 define ('CONSUMER_KEY', $conf->apiKey);
 define ('CONSUMER_SECRET', $conf->apiSecretKey);
