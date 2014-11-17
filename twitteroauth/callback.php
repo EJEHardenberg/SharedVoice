@@ -63,7 +63,6 @@ unset($_SESSION['oauth_token_secret']);
 /* If HTTP response is 200 continue otherwise send to connect page to retry */
 if (200 == $connection->http_code) {
   /* The user has been verified and the access tokens can be saved for future use */
-  $_SESSION['status'] = 'verified';
   header('Location: /thanks.html');
 } else {
   /* Save HTTP status for error dialog on connnect page.*/

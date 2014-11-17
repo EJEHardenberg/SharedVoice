@@ -1,7 +1,7 @@
 CREATE DATABASE sharedvoice;
 
 CREATE USER 'share'@'localhost' IDENTIFIED BY 'voice';
-GRANT ALL ON hydra.* TO 'share'@'localhost';
+GRANT ALL ON sharedvoice.* TO 'share'@'localhost';
 FLUSH PRIVILEGES;
 
 USE sharedvoice;
