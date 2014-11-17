@@ -14,7 +14,7 @@ define ('DB_NAME', $conf->dbname);
 define ('DB_USER',$conf->dbuser);
 define ('DB_PASS',$conf->dbpass);
 define ('DB_HOST',$conf->dbhost);
-define ('TWEET', 'Add your voice to this cause');
+define ('TWEET', $conf->tweet);
 
 
 $length = mb_strlen(preg_replace('~https?://([^\s]*)~', 'http://890123456789022', TWEET), 'UTF-8');

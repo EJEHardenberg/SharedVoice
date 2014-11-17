@@ -53,15 +53,15 @@
 						Click the button below to share your voice and say:
 					</p>
 					<blockquote>
-						<p>Your Message Here</p>
+						<!-- See config file for setting this message as appropriate -->
+						<?php require_once dirname(__FILE__) . '/config.php'; ?>
+						<p><?php echo TWEET; ?></p>
 						<footer>An impassioned activist: <cite title="You">You</cite></footer>
 					</blockquote>
 				</div>
-				<!-- See config file for setting this message as appropriate -->
-				<?php require_once dirname(__FILE__) . '/config.php'; ?>
 				<div class="col-xs-12 center-block">
 					<a href="/twitteroauth/connect.php" class="btn btn-primary center-block">
-						<?php echo TWEET; ?>
+						Add Your Voice
 					</a>
 				</div>
 			</section>

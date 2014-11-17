@@ -9,3 +9,17 @@ Installation Instructions
 4. *Please* be sure to password protect or deny access to the conf file from the web!
 5. Set the `TWEET` text in conf.json to the message you want to spread
 6. Share
+
+Some suggestions
+------------------------------------------------------------------------
+
+Use this tidbit for apache to protect your secret files
+
+	<Files "post.php">
+	    Order Allow,Deny
+	    Deny from  all
+	</Files>
+	<Files "conf.json">
+	    Order Allow,Deny
+	    Deny from  all
+	</Files>

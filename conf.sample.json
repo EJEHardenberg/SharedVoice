@@ -4,5 +4,6 @@
 	"dbname" : "sharedvoice",
 	"dbuser" : "share",
 	"dbpass" : "voice",
-	"dbhost" : "localhost"
+	"dbhost" : "localhost",
+	"tweet" : "Add your voice to this cause"
 }
