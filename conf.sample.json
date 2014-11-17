@@ -1,0 +1,8 @@
+{
+	"apiKey" : "CREATE A TWITTER APPLICATION",
+	"apiSecretKey" : "CREATE A TWITTER APPLICATION",
+	"dbname" : "sharedvoice",
+	"dbuser" : "share",
+	"dbpass" : "voice",
+	"dbhost" : "localhost"
+}

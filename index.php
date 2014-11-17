@@ -58,14 +58,15 @@
 					</blockquote>
 				</div>
 				<!-- See config file for setting this message as appropriate -->
+				<?php require_once dirname(__FILE__) . '/config.php'; ?>
 				<div class="col-xs-12 center-block">
 					<a href="/twitteroauth/connect.php" class="btn btn-primary center-block">
-						Add your voice to this cause
+						<?php echo TWEET; ?>
 					</a>
 				</div>
 			</section>
 			<hr>
-			<!-- Feel free to remove the link below when setting up your share -->
+			<!-- Feel free to remove the link below when setting up your share, crediting me is nice though -->
 			<footer>
 				<p>
 					To set up your own share, check the <a href="https://github.com/EJEHardenberg/SharedVoice">source code</a>
