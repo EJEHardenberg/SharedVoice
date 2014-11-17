@@ -23,3 +23,15 @@ Use this tidbit for apache to protect your secret files
 	    Order Allow,Deny
 	    Deny from  all
 	</Files>
+
+Detailed Steps (for app related)
+------------------------------------------------------------------------
+
+1. Create a Twitter App by going to [twitter dev center](https://dev.twitter.com) 
+and scrolling down to "manage my apps".
+2. Create an application and set the permissions to be able to read and write
+3. Copy the access tokens from the application to your conf.json file
+4. Share your live link to people to get them to sign up
+5. run `php post.php`
+6. Do it again
+
