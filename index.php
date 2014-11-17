@@ -58,7 +58,7 @@
 					<blockquote>
 						<!-- See config file for setting this message as appropriate -->
 						<?php require_once dirname(__FILE__) . '/config.php'; ?>
-						<p><?php echo TWEET; ?></p>
+						<p>"<?php echo TWEET; ?>"</p>
 						<footer>An impassioned activist: <cite title="You">You</cite></footer>
 					</blockquote>
 				</div>
