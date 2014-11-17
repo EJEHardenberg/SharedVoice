@@ -52,14 +52,14 @@ while (($userRow = mysql_fetch_object($userRes)) != FALSE) {
     $statusUpdateResult = $twitter->post('statuses/update', array('status' => TWEET));
 
     if (!is_object($statusUpdateResult) || isset($statusUpdateResult->errors)) {
-    	echo "Could not update status for user " . $userRes->twitter_name . "
+    	echo "Could not update status for user " . $userRow->twitter_name . "
     	";
     	continue;
     }
 
-    $delQuery = mysql_query('DELETE FROM users WHERE id = '.$userRes->id, $dblink);
+    $delQuery = mysql_query('DELETE FROM users WHERE id = '.$userRow->id, $dblink);
     if($delQuery === FALSE){
-    	echo 'Could not delete user ' . $userRes->twitter_name . "
+    	echo 'Could not delete user ' . $userRow->twitter_name . "
     	";
     	continue;
     }
