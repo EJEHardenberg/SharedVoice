@@ -40,7 +40,7 @@ you've got google you'll be just fine.
 
 ### how do I use this?
 
-[Use the setup file](https://github.com/EJEHardenberg/SharedVoice/blob/master/setupg.md)
+[Use the setup file](https://github.com/EJEHardenberg/SharedVoice/blob/master/setup.md)
 
 
 
